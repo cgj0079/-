@@ -10,7 +10,7 @@ var set_clock = setInterval(
         var sec = date_now.getSeconds();
 
         var calc_hr = (hr * 30) + (min / 2);
-        var calc_min =    (min * 6)  ;
+        var calc_min = (min * 6)  ;
         var calc_sec = sec * 6 ;
 
         hour.style.transform = "rotate(" + calc_hr + "deg)";
